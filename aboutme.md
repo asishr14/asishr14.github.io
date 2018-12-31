@@ -12,4 +12,4 @@ subtitle: Essentials
 
 
 ### Get in touch
-You can [email me](as.racha@outlook.com)</a> or send me a message via [LinkedIn](https://www.linkedin.com/in/asishr/). I would absolutely love to get connected and grow each others interets.
+You can [email me](as.racha@outlook.com) or get connected via [LinkedIn](https://www.linkedin.com/in/asishr/). I would absolutely love to get connected and grow each others interets.
