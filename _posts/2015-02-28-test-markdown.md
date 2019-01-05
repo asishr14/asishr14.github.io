@@ -1,74 +1,27 @@
 ---
 layout: post
-title: Test markdown
-subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
+title: API Testing with Postman
+subtitle: Get Started
+<!--- gh-repo: daattali/beautiful-jekyll >
+gh-badge: [star, fork, follow] -->
 tags: [test]
 comments: true
 ---
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+##1.API
+An application program interface ([API](https://www.webopedia.com/TERM/A/API.html)) is a set of routines, protocols, and tools for building software applications. Basically, an API specifies how software components should interact, like a gateway directing each request to its corresponding destination. There are many types of API and you can more details [here](https://en.wikipedia.org/wiki/Application_programming_interface) (dont go here now, you may get overwhelmed and lost).
 
-**Here is some bold text**
+##2.Testing API
+API testing is similar to testing any front-end application but without any pretty GUI. While testing any software aplication which is integrated with any API, testing API for that application will be part of Integration testing. Testing API during inital stages of application of SDLC and having it automated from then on makes the application more stable and can prevent the errors to reach client.
+They are tons of tools to do all this [here](https://medium.com/@alicealdaine/top-10-api-testing-tools-rest-soap-services-5395cb03cfa9) are few with details. But, we will get started with [Postman](https://www.getpostman.com/)
 
-## Here is a secondary heading
+##3.Requests
+1.GET - As simple as "GET me food". A request for some specific data.
+2.POST - Consider it as user trying to send(POST) some data to the application. So API expects some sort of Body(data) in this request.
+3.PUT - Whatever you POSTed in the POST can be updated here in PUT. So API expects some sort of Body(of existing data) in this request.
+4.DELETE - As word says just "get rid of it". Here also API expects some sort of Body(of existing data) to get rid of.
 
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
+Thats all, you already mastered what happens in all of API.
 
 
-How about a yummy crepe?
 
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
