@@ -6,12 +6,12 @@ published: true
 date: '2019-05-01'
 ---
 
-#1.API
+**1.Application Program Interface**
 
 
 An application program interface ([API](https://www.webopedia.com/TERM/A/API.html)) is a set of routines, protocols, and tools for building software applications. Basically, an API specifies how software components should interact, like a gateway directing each request to its corresponding destination. There are many types of API and you can more details [here](https://en.wikipedia.org/wiki/Application_programming_interface) (dont go here now, you may get overwhelmed and lost).
 
-#2.Testing API
+**2.Testing API**
 
 
 API testing is similar to testing any front-end application but without any pretty GUI. While testing any software aplication which is integrated with any API, testing API for that application will be part of Integration testing. 
@@ -19,7 +19,7 @@ Testing API during inital stages of application of SDLC and having it automated 
 
 They are tons of tools to do all this [here](https://medium.com/@alicealdaine/top-10-api-testing-tools-rest-soap-services-5395cb03cfa9) are few with details. But, we will get started with [Postman](https://www.getpostman.com/)
 
-#3.Requests
+**3.Requests**
 
 
 1.GET - As simple as "GET me food". A request for some specific data.
